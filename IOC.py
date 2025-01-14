@@ -3,14 +3,14 @@ import os
 def search_logs_for_ip(ip): 
 
     log_directory = "/var/log" 
-    files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(log_directory) for f in filenames if not f.endswith('.gz')]
+    files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(log_directory) for f in filenames if not f.endswith('.gz')]  
 
-    for file in files: 
+    for file in files:  #search for IP addresses in the "/var/log" dir
         try: 
             with open(file, 'r', errors='ignore') as f:
                 lines = f.readlines() 
                 for line in lines: 
-                    if ip in line: print(f"[{file}] {line.strip()}") 
+                    if ip in line: print(f"[{file}] {line.strip()}")   
         except Exception as e:
             print(f"Error in {file} file: {e}") 
 
