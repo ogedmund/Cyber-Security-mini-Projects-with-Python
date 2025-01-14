@@ -1,7 +1,7 @@
 import requests
-import hashlib
+import hashlib 
 
-response = Requests.get("https://letsdefend.io/robots.txt")
+response = Requests.get("https://letsdefend.io/robots.txt") #assigning the get URL response to response
 
 if response.status_code == 200:
   file_content = respomse.text.encode()
