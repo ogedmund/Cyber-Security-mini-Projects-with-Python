@@ -1,4 +1,4 @@
-import pytsk3 
+import pytsk3 #used for disk images
 
 def list_deleted_files(image_path): 
 
