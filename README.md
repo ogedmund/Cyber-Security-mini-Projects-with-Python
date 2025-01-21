@@ -7,4 +7,4 @@ A few projects using python for cybersecurity.
 
 4. Directory Enumeration - Reconnaissance is one of the most critical steps to the success of a penetration testing engagement. This code builds a simple directory enumeration tool. 
 
-I also completed a few other projects via LetesDefend.io (an amazing platform for learning cybersecurity) - Web Scrapping with Python, Port Scanner, IDS,FIM, Forensic and Incident Response
+I also completed a few other projects via LetesDefend.io (an amazing platform for learning cybersecurity) - Web Scrapping with Python, Port Scanner, IDS,FIM, Forensic and Incident Response.
